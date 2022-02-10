@@ -1,0 +1,73 @@
+body {
+    background-color :floralwhite;
+   
+}
+
+header {
+    border-style: solid;
+    border-radius: 10px;
+    background-color:pink;  
+    border-color:indianred;
+    height: 40px;
+    padding: 10px;
+    position: sticky;
+
+   
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav a {
+    display: block;
+    float:  left;
+    text-decoration: none;
+    font-family:Georgia;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    margin: 0px;
+    color: black;
+    margin-top: 4px;
+
+}
+
+nav a:hover {
+    color: azure;
+}
+
+header div img {
+
+    display: block;
+    float: left;
+    height: 39px;
+    width: 85px;
+    margin: 0px 0px 0px 8px;
+}
+
+#logo {
+    /* margin-top: 200px; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
