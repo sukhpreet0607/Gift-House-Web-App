@@ -51,12 +51,41 @@ header div img {
     margin: 0px 0px 0px 8px;
 }
 
-#logo {
-    /* margin-top: 200px; */
+/* #logo_tag {
+    background-color: aqua;
+    position: absolute;
+    margin-top: 60px;
     
+} */
+
+#search_bar input {
+
+    position: absolute;
+    display: inline;
+    margin: 3px 0px 0px 140px ; 
+    border-style:none;
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+
 }
 
+.nav_icon {
 
+    display: inline;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 5px;
+
+}
+
+.nav_icon i {
+
+    padding-left: 20px;
+    font-size: 30px;
+
+
+}
 
 
 
