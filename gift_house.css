@@ -1,5 +1,5 @@
 body {
-    background-color :floralwhite;
+    font-family:Georgia;
    
 }
 
@@ -26,7 +26,6 @@ nav a {
     display: block;
     float:  left;
     text-decoration: none;
-    font-family:Georgia;
     font-size: 20px;
     padding-left: 20px;
     padding-top: 3px;
@@ -137,13 +136,8 @@ div.nav_icon a {
 
 
 div#stock_img {
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     max-width: 100%;
-    height: 300px;
+    height: 350px;
     margin: auto;
     animation: slider 12s infinite linear;
 }
@@ -161,19 +155,138 @@ div#stock_img {
     }
     75%{
         background-image: url("gifts3.jpg");
+    }
+}
+
+/* a#button {
+    text-decoration: none;
+    background-color: rgb(245, 88, 88);
+    font-size: 22px;
+    color: white;  
+    padding: 8px 15px; 
+    border-radius: 20px; 
+}
+
+div.but {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+} */
+
+
+div.searcher {
+    background-color: rgb(248, 145, 162);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 75px;  
+    max-width: 950px; 
+    margin: auto; 
+    position: relative;
+    bottom: 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+div#s1 {
+    height: 50px;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+div#s2 input {
+    height: 45px;
+    width: 200px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+div#s2 i {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    left: 313px;
+    top: 20px;
+}
+
+div#s3 {
+    background-color: white;
+    height: 45px;
+    width: 200px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+
+}
+
+div#s3 span {
+    padding-left: 5px;
+}
+
+div#arr_icon1 {
+    position: absolute;
+    left: 844px;
+    top: 420px;
+    height: 45px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+div#arr_icon1 i {
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 35px;
 }
 
 
+div#s4 {
+    background-color: white;
+    height: 45px;
+    width: 200px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
 
+}
 
+div#s4 span {
+    padding-left: 5px;
+}
 
+div#arr_icon2 {
+    position: absolute;
+    left: 1082px;
+    top: 420px;
+    height: 45px;
+    width: 30px;
+    border-radius: 5px;
+}
 
+div#arr_icon2 i {
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 35px;
+}
 
+div#s5 input {
+    background-color: rgb(56, 218, 16);
+    height: 45px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+    
 
+} 
 
-
-
-
+ 
 
 
 
