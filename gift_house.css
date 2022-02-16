@@ -208,8 +208,8 @@ div#s2 i {
     color: red;
     position: absolute;
     font-size: 30px;
-    left: 313px;
-    top: 20px;
+    left: 320px;
+    top: 22px;
 }
 
 div#s3 {
@@ -223,14 +223,18 @@ div#s3 {
 
 }
 
+div#s3:hover {
+    background-color: rgb(234, 226, 226);
+}
+
 div#s3 span {
     padding-left: 5px;
 }
 
 div#arr_icon1 {
     position: absolute;
-    left: 844px;
-    top: 420px;
+    left: 850px;
+    top: 418px;
     height: 45px;
     width: 30px;
     border-radius: 5px;
@@ -239,7 +243,7 @@ div#arr_icon1 {
 div#arr_icon1 i {
     padding-right: 10px;
     padding-top: 5px;
-    font-size: 35px;
+    font-size: 42px;
 }
 
 
@@ -258,10 +262,14 @@ div#s4 span {
     padding-left: 5px;
 }
 
+div#s4:hover {
+    background-color: rgb(234, 226, 226);
+}
+
 div#arr_icon2 {
     position: absolute;
-    left: 1082px;
-    top: 420px;
+    left: 1095px;
+    top: 418px;
     height: 45px;
     width: 30px;
     border-radius: 5px;
@@ -270,11 +278,11 @@ div#arr_icon2 {
 div#arr_icon2 i {
     padding-right: 10px;
     padding-top: 5px;
-    font-size: 35px;
+    font-size: 42px;
 }
 
 div#s5 input {
-    background-color: rgb(56, 218, 16);
+    background-color: rgb(52, 228, 9);
     height: 45px;
     margin-top: 12px;
     border-radius: 5px;
