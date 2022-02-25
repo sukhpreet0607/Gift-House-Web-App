@@ -1,13 +1,18 @@
+:root {
+    --main-color : pink;
+    --secondary-color : indianred;
+}
 body {
     font-family:Georgia;
+    background-color: rgb(226, 224, 224);
    
 }
 
 header {
     border-style: solid;
     border-radius: 10px;
-    background-color:pink;  
-    border-color:indianred;
+    background-color: var(--main-color) ;  
+    border-color: var(--secondary-color);
     height: 40px;
     padding: 10px;
 
@@ -122,7 +127,7 @@ div.nav_icon a {
     margin-top: 4px;
     margin-bottom: 5px;
     border-right-style:solid;
-    border-color: indianred;
+    border-color: var(--secondary-color);
 
 }
 
@@ -231,20 +236,32 @@ div#s3 span {
     padding-left: 5px;
 }
 
-div#arr_icon1 {
+div#s3 select {
+    border-style: none;
+    height: 20px;
+    width: 50px;
+    font-size: 15px;
+}
+
+div#s3 select:hover {
+    background-color: rgb(234, 226, 226);
+}
+
+/* div#arr_icon1 {
     position: absolute;
     left: 850px;
     top: 418px;
     height: 45px;
     width: 30px;
     border-radius: 5px;
-}
+    z-index: 0;
+} */
 
-div#arr_icon1 i {
+/* div#arr_icon1 i {
     padding-right: 10px;
     padding-top: 5px;
     font-size: 42px;
-}
+} */
 
 
 div#s4 {
@@ -266,20 +283,32 @@ div#s4:hover {
     background-color: rgb(234, 226, 226);
 }
 
-div#arr_icon2 {
+div#s4 select {
+    border-style: none;
+    height: 20px;
+    width: 50px;
+    font-size: 15px;
+
+}
+
+div#s4 select:hover {
+    background-color: rgb(234, 226, 226);
+}
+
+/* div#arr_icon2 {
     position: absolute;
     left: 1095px;
     top: 418px;
     height: 45px;
     width: 30px;
     border-radius: 5px;
-}
+} */
 
-div#arr_icon2 i {
+/* div#arr_icon2 i {
     padding-right: 10px;
     padding-top: 5px;
     font-size: 42px;
-}
+} */
 
 div#s5 input {
     background-color: rgb(52, 228, 9);
@@ -294,7 +323,34 @@ div#s5 input {
 
 } 
 
- 
+div#trad_m {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 465px;
+    left: 500px;
+    margin:auto;
+}
 
+div#trad_m #p1 {   
+    font-size: 27px;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+div#trad_m #p2 {
+    font-size: 18px;
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 58px;
+    left: 68px;
+
+}
+
+ 
 
 
