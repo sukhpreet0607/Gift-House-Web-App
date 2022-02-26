@@ -4,7 +4,7 @@
 }
 body {
     font-family:Georgia;
-    background-color: rgb(226, 224, 224);
+    background-color: whitesmoke;
    
 }
 
@@ -15,7 +15,6 @@ header {
     border-color: var(--secondary-color);
     height: 40px;
     padding: 10px;
-
 }
 
 nav ul {
@@ -23,8 +22,7 @@ nav ul {
     display: inline;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 nav a {
@@ -69,6 +67,7 @@ header div img {
     border-radius: 15px;
     width: 400px;
     height: 30px;
+    padding-left: 10px; ;
 
 }
 
@@ -76,7 +75,7 @@ header div img {
 
     display: inline;
     position: absolute;
-    margin-left: 860px;
+    margin-left: 850px;
     margin-top: 5px;
 
 }
@@ -88,7 +87,7 @@ div.nav_icon a {
 
 .nav_icon i {
 
-    padding-left: 20px;
+    padding-left: 18px;
     font-size: 30px;
 
 
@@ -180,7 +179,8 @@ div.but {
 
 
 div.searcher {
-    background-color: rgb(248, 145, 162);
+    /* background-color: rgb(248, 145, 162); */
+    background-color: var(--main-color);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -225,27 +225,43 @@ div#s3 {
     border-radius: 5px;
     border-style: none;
     font-size: 15px;
-
-}
-
-div#s3:hover {
-    background-color: rgb(234, 226, 226);
 }
 
 div#s3 span {
     padding-left: 5px;
 }
 
-div#s3 select {
+div#s4 {
+    background-color: white;
+    height: 45px;
+    width: 200px;
+    margin-top: 12px;
+    border-radius: 5px;
     border-style: none;
-    height: 20px;
-    width: 50px;
     font-size: 15px;
 }
 
-div#s3 select:hover {
+div#s4 span {
+    padding-left: 5px;
+}
+
+div#s3 select,div#s4 select {
+    border-style: none;
+    height: 20px;
+    width: 195px;
+    margin-left: 1px;
+    font-size: 14px;
+    color: grey;
+}
+
+div#s3 select:hover,div#s4 select:hover {
     background-color: rgb(234, 226, 226);
 }
+
+div#s3:hover, div#s4:hover {
+    background-color: rgb(234, 226, 226);
+}
+
 
 /* div#arr_icon1 {
     position: absolute;
@@ -262,38 +278,6 @@ div#s3 select:hover {
     padding-top: 5px;
     font-size: 42px;
 } */
-
-
-div#s4 {
-    background-color: white;
-    height: 45px;
-    width: 200px;
-    margin-top: 12px;
-    border-radius: 5px;
-    border-style: none;
-    font-size: 15px;
-
-}
-
-div#s4 span {
-    padding-left: 5px;
-}
-
-div#s4:hover {
-    background-color: rgb(234, 226, 226);
-}
-
-div#s4 select {
-    border-style: none;
-    height: 20px;
-    width: 50px;
-    font-size: 15px;
-
-}
-
-div#s4 select:hover {
-    background-color: rgb(234, 226, 226);
-}
 
 /* div#arr_icon2 {
     position: absolute;
@@ -351,6 +335,124 @@ div#trad_m #p2 {
 
 }
 
- 
+div#container {
+    background-color: white;
+    display: grid;
+    height: 700px;
+    max-width: 1600px;
+    margin: 30px;
+    border-radius: 1%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content:space-evenly;
+
+}
+
+
+.container_item {
+    background-color: var(--main-color);
+    height: 300px;
+    max-width: 250px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div#container img{
+    max-width: 230px;
+    height: 250px;
+    padding: 10px 10px 0px 10px ;
+    transition-property: all;
+    transition-duration: 2ms;
+    transition-timing-function: ease-in-out;
+}
+
+div#container p,div#container1 p {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+    
+}
+
+div#container img:hover {
+    height: 255px;
+    max-width: 235px;
+
+}
+
+.container_item:hover {
+    height: 305px;
+    max-width: 255px;
+}
+
+div#container1 {
+    background-color: white;
+    display: grid;
+    height: 790px;
+    max-width: 1600px;
+    margin: 0px 30px 10px 30px;
+    border-radius: 1%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.container_item1 {
+    background-color: var(--main-color);
+    height: 350px;
+    max-width: 330px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+div#container1 img {
+    max-width: 310px;
+    height: 275px;
+    padding: 10px 10px 0px 10px ;
+    transition-property: all;
+    transition-duration: 2ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+#container1_heading {
+    background-color: white;
+    margin: 0px 30px 0px 30px;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px;
+    border-radius: 5px;
+    padding: 20px 0px 0px 20px;
+
+}
+
+div#container1 img:hover {
+    max-width: 315px;
+    height: 280px;
+
+}
+
+.container_item1:hover {
+    height: 355px;
+    max-width: 335px;
+}
+
+
+
+footer {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    max-width: 100%;
+
+}
+
+
+
+
+
 
 
