@@ -443,13 +443,63 @@ div#container1 img:hover {
 
 
 footer {
-    background-color: aqua;
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
     max-width: 100%;
-
+    height: 140px;
+    margin-top: 25px;
 }
 
+footer div {
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer img {
+    height: 42px;
+    max-width: 48px;
+}
+
+#msg_icon {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    height: 55px;
+    max-width: 55px;
+}
+
+#msg_icon:hover{
+    border-style: solid;
+    border-color: whitesmoke ;
+}
+
+
+#footer1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 40% ;
+    max-width: 100%;
+    height: 230px;
+    margin-top: 25px;
+}
+
+#footer1 div {
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    text-align:left;
+    font-size: 15px;
+}
+
+#creator h4 {
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+#creator div {
+    padding-left: 210px;
+    font-size: 20px;
+}
 
 
 
