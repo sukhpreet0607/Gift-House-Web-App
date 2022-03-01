@@ -12,7 +12,8 @@ header {
     border-style: solid;
     border-radius: 10px;
     background-color: var(--main-color) ;  
-    border-color: var(--secondary-color);
+    /* border-color: var(--secondary-color); */
+    border-style: none;
     height: 40px;
     padding: 10px;
 }
@@ -20,7 +21,7 @@ header {
 nav ul {
     list-style-type: none;
     display: inline;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
     overflow: hidden;    
 }
@@ -43,20 +44,16 @@ nav a:hover {
 }
 
 header div img {
-
     display: block;
     float: left;
-    height: 39px;
-    width: 85px;
-    margin: 0px 0px 0px 8px;
+    height: 60px;
+    width: 140px;
+    border-radius: 30%;
+    margin: 0%;
+    /* position: absolute;
+    top: 10px;
+    left: 15px; */
 }
-
-/* #logo_tag {
-    background-color: aqua;
-    position: absolute;
-    margin-top: 60px;
-    
-} */
 
 #search_bar input {
 
@@ -75,7 +72,7 @@ header div img {
 
     display: inline;
     position: absolute;
-    margin-left: 850px;
+    margin-left: 800px;
     margin-top: 5px;
 
 }
@@ -144,9 +141,10 @@ div#stock_img {
     height: 350px;
     margin: auto;
     animation: slider;
-    animation-duration: 45s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
 }
 
 @keyframes slider {
@@ -507,7 +505,12 @@ footer img {
     font-size: 20px;
 }
 
-
+/* #ic2 {
+    color: red;
+}
+#ic4 {
+    color: blue;
+} */
 
 
 
