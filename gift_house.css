@@ -348,18 +348,21 @@ div#container {
     border-radius: 1%;
     grid-template-columns: 20% 20% 20% 20% 20%;
     justify-content:space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 
 .container_item {
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     height: 300px;
     max-width: 250px;
     border-style: solid;
     border-color: whitesmoke;
     margin-top: 20px;
     margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 div#container img{
@@ -398,16 +401,20 @@ div#container1 {
     margin: 0px 30px 10px 30px;
     border-radius: 1%;
     grid-template-columns: 25% 25% 25% 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .container_item1 {
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     height: 350px;
     max-width: 330px;
     border-style: solid;
     border-color: whitesmoke;
     margin-top: 25px;
     margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 div#container1 img {
